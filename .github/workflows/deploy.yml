@@ -20,7 +20,7 @@ jobs:
         PASSPHRASE: ${{ secrets.PASSPHRASE }}
       with:
         source: "."
-        target: "/var/www/html"
+        target: "/var/www/Sys_Reseau_Github_"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
